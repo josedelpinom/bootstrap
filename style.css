@@ -72,7 +72,6 @@
 }
 .item {
     text-decoration: none;
-    text-decoration: none;
     color: #F2ECCE;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -83,7 +82,9 @@
         transform: translate(1px, 1px);
 }
 
-
+.navegacionitems a{
+    text-decoration: none;
+}
 .logo{
     display: flex;
     justify-content: center;
@@ -188,23 +189,21 @@ p{
     padding: 5px;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 15px;
     font-size:small;
-    padding-left:10px;
+    height: 40px;
     
 }
 
 .link{
     background-color:#401F0D;
     border-radius: 50px;
-    margin-top: 5px;
     width: 170px;
-    height: 50px;
+}
+.link a img, svg{
+    padding-right: 5px;
 }
 
-.contactos p{
-    margin-top: 10px;
-}
 
 .contactos div{
     display: flex;
@@ -213,7 +212,7 @@ p{
     margin-top: 10px;
 }
 .boxcontacto p{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .link:hover{
